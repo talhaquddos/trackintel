@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: "[BUG] "
+title: " module 'trackintel' has no attribute 'preprocessing'  "
 labels: ''
 assignees: ''
 
@@ -10,11 +10,10 @@ assignees: ''
 #### Code Sample, a copy-pastable example
 
 ```python
-# Your code here
-
+pfs.generate_staypoints('sliding', dist_threshold=100)
 ```
 #### Bug description
-A clear and concise description of what the bug is.
+AttributeError: module 'trackintel' has no attribute 'preprocessing'
 
 #### Expected Output
 A clear and concise description of what you expected to happen.
